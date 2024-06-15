@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+
+.train{ 
+    margin-top: 8%;
+    margin-left: 32%;
+    width: 600px;
+
+    background: linear-gradient(to right,rgba(255, 149, 37, 0.7), rgba(51, 114, 240, 0.7));
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+.train form{
+    padding:50px;
+}
+.train form label{
+    font-size: 20px;
+    color: antiquewhite;
+    
+}
+.train input[type=text],[type=email] {
+	font-size: 12px;
+	border-radius: 5px;
+  	padding: 5px 100px;
+	margin: 8px 0;
+ 	box-sizing: border-box;
+}
+.success{
+	margin-top: 8%;
+    margin-left: 32%;
+    width: 600px;
+    background: linear-gradient(to right,rgba(255, 149, 37, 0.7), rgba(51, 114, 240, 0.7) );
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.success td{
+	font-size: 20px;
+	color: whitesmoke;
+	padding: 10px;
+}
+.success table{
+	width: 600px;
+	padding:30px;	
+}
+.success table tr td{
+	border: 2px solid whitesmoke;
+	border-collapse: collapse;
+	background-color:rgba(52, 82, 191, 0.667);
+}
+.success input[type=button]{
+	 background-color: rgba(6, 4, 89, 0.818);
+ 	 color: whitesmoke;
+  	 border: 2px solid whitesmoke;
+  	 padding: 10px 20px;
+	 text-align: center;
+  	 text-decoration: none;
+     display: inline-block;
+}
+
+
+
